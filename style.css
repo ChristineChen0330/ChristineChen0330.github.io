@@ -1,0 +1,191 @@
+body{
+  margin: 0;
+  background-color: #989193;
+  height: auto;
+}
+
+Main{
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.main{
+  display: flex;
+}
+
+.header{
+  cursor: pointer;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.bottom{
+  color: #1111111;
+  font-weight: bold;
+  font-family: Short Stack;
+  border:  1px #cccccc solid;
+  border-radius: 100px;
+  padding: 8px;
+  margin-left: 16px;
+}
+
+
+a{
+  text-decoration:none;
+  color:#ffffff;
+}
+
+.About{
+  background-color: #D5D2C1;
+  padding: 40px;
+}
+
+.Atitle{
+  text-align: center;
+  color: #1111111;
+  font-size: 24px;
+  font-family: Patrick Hand;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.description{
+  text-align: center;
+  font-size: 20px;
+  font-family: Short Stack;
+  color: #484848;
+  margin: 24px;
+  line-height: 30px;
+}
+
+.landing{
+  flex: 0 1 50vw;
+}
+
+.Background{
+  background-color: #A46843;
+  flex: 0 1 40vw;
+}
+
+.landing-text{
+  text-align: center; 
+  justify-content: center;
+
+}
+
+img{
+  display: block;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.title{
+  color: white;
+  margin-top: 50%;
+  font-weight: bold;
+  font-family: Berkshire Swash;
+  font-size: 40px;
+  margin-bottom: 40px;
+  animation-name: titleMove;
+  animation-duration: 4s;
+  animation-timing-function:cubic-bezier(54,1.33,1,1.01);
+}
+
+.subtitle{
+  color: white;
+  font-weight: bold;
+  font-family: Short Stack;
+  font-size: 16px;
+  animation-name: subtitleMove;
+  animation-duration: 4s;
+  animation-timing-function:cubic-bezier(54,1.33,1,1.01);
+}
+
+.bar{
+  background-color: #BD8E62;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Patrick Hand;
+}
+
+.bar1{
+  background-color: #BD8E62;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+}
+
+.barT{
+  font-size: 18px;
+  font-family: Patrick Hand;
+  font-weight: bold;
+}
+
+.barS{
+  font-size: 16px;
+  padding-top: 15px;
+  font-family: Patrick Hand;
+}
+
+@keyframes titleMove{
+  0%{
+    margin-left: -1400px;
+  }
+  50%{
+    margin-left: 0px;
+  }
+  100%{
+    margin-left: 0px;
+  }
+}
+
+@keyframes subtitleMove{
+  0%{
+    margin-left: -2000px;
+  }
+  50%{
+    margin-left: -2000px;
+  }
+  100%{
+    margin-left: 0px;
+  }
+}
+
+.Endbar{
+  background-color: #BD8E62;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Berkshire Swash;
+}
+
+.contact{
+  display: flex;
+  font-size: 20px;
+  font-family: Short Stack;
+  color: #484848;
+  justify-content: center;
+}
+
+.email{
+  margin-left: 12px;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 36px;
+}
